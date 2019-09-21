@@ -1,29 +1,42 @@
 <html>
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Mocha Tests</title>
     <link href="lib/mocha.css" rel="stylesheet" />
-</head>
-<body>
+  </head>
+  <body>
+    <!-- 👍 YOUR HTML HERE 👍 -->
 
+    <img
+      id="inn"
+      src="https://images.unsplash.com/photo-1498536182014-41657c87657b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+      alt="Door of a tavern in a grassy green hill"
+    />
+    <img
+      id="dagger"
+      src="https://cdn.pixabay.com/photo/2016/10/10/21/22/weapon-1729902_960_720.jpg"
+      alt="Dagger"
+    />
+    <img
+      id="bag"
+      src="https://live.staticflickr.com/8107/8599670093_d364b39c48_b.jpg"
+      alt="medieval-like leather pouch"
+    />
 
-  <!-- 👍 YOUR HTML HERE 👍 -->
+    <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
+    <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>
 
+    <div id="mocha">
+      <!-- MOCHA TEST FEEDBACK WILL BE RENDERED HERE -->
+    </div>
 
-
-  <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
-  <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>
-
-  <div id="mocha">
-  <!-- MOCHA TEST FEEDBACK WILL BE RENDERED HERE -->
-  </div>
-
-  <script src="lib/chai.js"></script>
-  <script src="lib/mocha.js"></script>
-  <script src="lib/sinon.js"></script>
-  <script>mocha.setup('bdd')</script>
-  <script src="YOUR_JAVASCRIPT_HERE.js"></script>
-  <script src="lib/game_logic.test.js"></script>
-
-</body>
+    <script src="lib/chai.js"></script>
+    <script src="lib/mocha.js"></script>
+    <script src="lib/sinon.js"></script>
+    <script>
+      mocha.setup("bdd");
+    </script>
+    <script src="YOUR_JAVASCRIPT_HERE.js"></script>
+    <script src="lib/game_logic.test.js"></script>
+  </body>
 </html>
