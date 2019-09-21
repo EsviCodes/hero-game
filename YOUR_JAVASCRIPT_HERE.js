@@ -61,7 +61,7 @@ dagger.addEventListener("click", function() {
 // EQUIP WEAPON FUNCTION
 function equipWeapon(hero) {
   if (hero.inventory.length === 0) {
-    hero.inventory.length === 0; // this is ugly logic. When I have more time - make this better!
+    hero.inventory.length = null;
   } else {
     hero.weapon = hero.inventory[0];
   }
@@ -74,3 +74,17 @@ const bag = document.getElementById("bag");
 bag.addEventListener("click", function() {
   equipWeapon(hero);
 });
+
+// ADD OWN NAME TO PAGE
+const namePerson = prompt("Hi there! What's your name?");
+const name = document.getElementById("name");
+const welcomeMsg = document.getElementById("welcome");
+console.log(welcomeMsg);
+
+if (namePerson != null) {
+  name.innerHTML = `Hello, ${namePerson}!`;
+  hero.name = namePerson;
+}
+welcomeMsg.innerHTML = `I am so happy you walked into our village. We are looking for a hero and you seems like you'd fit the part`;
+
+console.log(hero);
