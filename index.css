@@ -10,3 +10,7 @@ img {
   justify-content: center;
   align-items: flex-start;
 }
+
+.button {
+  float: left;
+}

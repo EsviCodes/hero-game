@@ -85,6 +85,21 @@ if (namePerson != null) {
   name.innerHTML = `Hello, ${namePerson}!`;
   hero.name = namePerson;
 }
-welcomeMsg.innerHTML = `I am so happy you walked into our village. We are looking for a hero and you seems like you'd fit the part`;
+welcomeMsg.innerHTML = `I am so happy you walked into our village. We are looking for a hero and you seems like you'd fit the part. <br><br><strong>Do you wanna help us out?</strong>`;
 
+// DISPLAY STATS FUNCTION
+function displayStats() {
+  const displayStats = document.getElementById("displayStats");
+  displayStats.innerHTML = `
+    Name: ${hero.name} <br>
+    Health: ${hero.health} <br>
+    Weapon: ${hero.weapon.type} <br>
+    Damage: ${hero.weapon.damage}
+    `;
+}
+
+// DISPLAY STATS
+displayStats();
+
+//console.log(heroYes); // test to see if heroYes works, YES!
 console.log(hero);
