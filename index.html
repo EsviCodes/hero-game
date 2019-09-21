@@ -8,45 +8,31 @@
   <body>
     <!-- 👍 YOUR HTML HERE 👍 -->
 
-    <!--Welcoming message after input name-->
-    <h1 id="name"></h1>
-    <!--Welcoming message after input name-->
-    <p id="welcome"></p>
-
-    <!-- Buttons if the vistor wants to play the game-->
-    <div class="button">
-      <button id="yes" type="default">I'm your hero!</button>
-    </div>
-    <div class="button">
-      <button id="maybe" type="default">Tell me more</button>
-    </div>
-    <div class="button">
-      <button id="no" type="default">
-        No way, I'm too scared. I think I'm gonna leave. Bye bye
-      </button>
-    </div>
-    <br />
-    <p id="displayStats">
-      <!-- Stats will be displayed if botton "yes" is clicked-->
-    </p>
-    <br />
-    <div id="images">
-      <img
-        id="inn"
-        src="https://images.unsplash.com/photo-1498536182014-41657c87657b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-        alt="Door of a tavern in a grassy green hill"
-      />
-      <img
-        id="dagger"
-        src="https://cdn.pixabay.com/photo/2016/10/10/21/22/weapon-1729902_960_720.jpg"
-        alt="Dagger"
-      />
-      <img
-        id="bag"
-        src="https://live.staticflickr.com/8107/8599670093_d364b39c48_b.jpg"
-        alt="medieval-like leather pouch"
-      />
-    </div>
+    <h1>HERO GAME</h1>
+    <h2 id="name"> <!--Welcome, Name--> </h2>
+    <p id="welcome"> <!--Welcoming message after input name + buttons--> </p>
+    <br>
+    <p id="displayStats"> <!-- Stats will be displayed --> </p>
+    <br>
+    <img
+      id="inn"
+      src="https://images.unsplash.com/photo-1498536182014-41657c87657b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+      alt="Door of a tavern in a grassy green hill"
+    />
+    <img
+      id="dagger"
+      src="https://cdn.pixabay.com/photo/2016/10/10/21/22/weapon-1729902_960_720.jpg"
+      alt="Dagger"
+    />
+    <img
+      id="bag"
+      src="https://live.staticflickr.com/8107/8599670093_d364b39c48_b.jpg"
+      alt="Medieval-like leather pouch"
+    />
+    <img id="poison"
+    src="https://cdn.pixabay.com/photo/2016/06/26/23/47/poison-1481596_960_720.jpg"
+    alt="Bottle of poison"
+    />
 
     <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
     <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>

@@ -1,12 +1,6 @@
 # Beginner Bootcamp Homework
 
-# SRC Images
-Inn: Photo by Tj Holowaychuk on Unsplash (https://unsplash.com/photos/rDyZ8t-MYxU)
-Dagger: https://cdn.pixabay.com/photo/2016/10/10/21/22/weapon-1729902_960_720.jpg 
-Bag: https://live.staticflickr.com/8107/8599670093_d364b39c48_b.jpg
-
 Hello beginner bootcampers. Here is your first formal homework  assignment!
-
 
 **I expect you to do this assignment individually. I will notice if you copy another students code.**  
 To be 100% clear: If I notice you copying other students homework you will get an invoice for the course.  

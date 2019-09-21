@@ -1,14 +1,9 @@
 img {
-  max-width: 80%;
-  max-height: 20rem;
-  margin: 1rem;
-}
-
-#images {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: flex-start;
+  position: relative;
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
 }
 
 .button {
